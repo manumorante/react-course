@@ -10,6 +10,7 @@
 .sass-cache/
 .sass-cache/*
 *.css.map
+yarn.lock
 
 ### Frameworks
 .idea/

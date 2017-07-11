@@ -4,11 +4,11 @@ export default [
     url: '/'
   },
   {
-    title: 'Blog',
-    url: '/blog'
-  },
-  {
     title: 'About us',
     url: '/about'
+  },
+  {
+    title: 'Contact',
+    url: '/contact'
   }
 ];

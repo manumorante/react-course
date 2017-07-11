@@ -24,3 +24,7 @@
   display: inline-block;
   padding-right: 16px;
 }
+
+.Menu a {
+  color: white;
+}
