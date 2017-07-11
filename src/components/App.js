@@ -15,9 +15,9 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Header title="Codejobs" items={items} />
+        <Header title="React" items={items} />
         <Content />
-        <Footer copyright="Codejobs 2017" />
+        <Footer copyright="Hello World 2017" />
       </div>
     );
   }
