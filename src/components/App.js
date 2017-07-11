@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 import Header from './Global/Header';
 import Content from './Global/Content';
 import Footer from './Global/Footer';
+import {Button} from 'react-bootstrap';
 
 // Data
 import items from '../data/menu';
@@ -19,11 +20,12 @@ class App extends Component {
     const {children} = this.props;
 
     return (
-      <div className="App">
+      <main className="container">
         <Header title="React" items={items} />
         <Content body={children} />
         <Footer />
-      </div>
+        <Button bsStyle="primary">Primary</Button>
+      </main>
     );
   }
 }

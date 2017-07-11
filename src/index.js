@@ -7,7 +7,7 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import AppRoutes from './routes';
 
 // Assets
-import './index.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 render(
   <Router>
