@@ -1,21 +1,29 @@
-# See https://help.github.com/ignore-files/ for more about ignoring files.
+# ###############################################
+# Front-end ignore rules
+# Manu Morante // April 20, 2014 // Updated March 9, 2017
+# https://gist.github.com/manumorante/6bc9e39ce86fd15ba007
+# ###############################################
 
-# dependencies
-/node_modules
+### Your ignore rules
 
-# testing
-/coverage
+### Sass
+.sass-cache/
+.sass-cache/*
+*.css.map
 
-# production
-/build
+### Frameworks
+.idea/
+*.sublime-workspace
+*.sublime-project
+node_modules/
 
-# misc
+
+### OS X cache
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.DS_Store?
+.Spotlight-V100
+.Trashes
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+### Windows image file caches
+Thumbs.db
+ehthumbs.db
